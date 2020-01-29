@@ -16,7 +16,6 @@ def greet_crew(crew)
   greetings = []
   crew.each {|crew_member| greetings << "Hello #{crew_member}."}
   greetings
-  # crew.map {|crew_member| "Hello #{crew_member}."}
 end
 
 def engage
