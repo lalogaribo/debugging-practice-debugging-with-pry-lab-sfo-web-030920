@@ -1,5 +1,4 @@
 
-require 'pry'
 def turtles
     [
       {name: "Donatello", weapon: "bo-staff", traits: ["serious", "leader"]},
@@ -18,6 +17,5 @@ def turtle_traits(turtles)
         trits << [turtle[:traits]]
       end
   end
-  binding.pry
   trits
 end
