@@ -11,7 +11,7 @@ end
 
 def turtle_traits(turtles)
   turtles.map do |turtle|
-    binding.pry
+    # binding.pry
       if turtle[:traits].is_a?(Array)
           turtle[:traits].each do |trait|
           trait
