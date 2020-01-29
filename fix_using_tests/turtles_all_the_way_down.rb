@@ -15,7 +15,7 @@ def turtle_traits(turtles)
       if turtle[:traits].is_a?(Array)
           trits << turtle[:traits]
       else
-        trits << turtle[:traits]
+        trits << [turtle[:traits]]
       end
   end
   binding.pry
