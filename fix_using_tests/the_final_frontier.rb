@@ -18,6 +18,7 @@ def greet_crew(crew)
   # crew.each {|crew_member| greetings << "Hello #{crew_member}."}
   # binding.pry
   # greetings
+  crew.map {|crew_member| "Hello #{crew_member}."}
 end
 
 def engage(date, crew)
