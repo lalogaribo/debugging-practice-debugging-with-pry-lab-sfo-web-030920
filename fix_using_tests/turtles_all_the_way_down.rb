@@ -12,7 +12,7 @@ end
 def turtle_traits(turtles)
   turtles.map do |turtle|
     binding.pry
-      if turtle[:traits].size > 0
+      if turtle[:traits].size > 1
           turtle[:traits].each do |trait|
           trait
       end
