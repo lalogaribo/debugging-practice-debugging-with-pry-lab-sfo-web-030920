@@ -12,11 +12,8 @@ end
 def turtle_traits(turtles)
   trits = []
   turtles.map do |turtle|
-    
       if turtle[:traits].is_a?(Array)
-          turtle[:traits].each do |trait|
-          trits << trait
-      end
+          trits << turtle[:traits]
     end
   end
   binding.pry
